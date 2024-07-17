@@ -11,7 +11,7 @@ document.getElementById("contactForm").addEventListener("submit",function (event
         /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
       if (!emailPattern.test(email)) {
-        alert("لطفا یک ایمیل معتبر وارد کنید");
+        alert("payam ersal shod!");
         event.preventDefult();
       }
     }
